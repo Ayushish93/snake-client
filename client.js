@@ -16,7 +16,19 @@ const connect = function() {
 
     conn.on('connect', () => {
         conn.write('Name: ASB');
-      });
+    });
+
+    
+    // conn.on('connect', () => {
+    //     setTimeout(() => {
+    //         conn.write('Move: up');
+    //     }, 500)
+        
+    // });
+    
+
+     
+
 
     return conn;
     
